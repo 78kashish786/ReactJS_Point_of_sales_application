@@ -1,0 +1,23 @@
+.content-wrap {
+	display: flex;
+}
+.d-sidebar {
+	width: 120px;
+	background-color: #484e81;
+	height: 96vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.d-main {
+	flex-grow: 1;
+	height: 95vh;
+	overflow-y: auto;
+}
+.sidebar-links {
+	color: white;
+}
+.sidebar-links h6 {
+	font-size: 11px;
+}
